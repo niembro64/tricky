@@ -1,3 +1,4 @@
+// @ts-ignore
 function trickyFUnction() {
     var a = [];
     var b = a;
@@ -18,4 +19,4 @@ function trickyFUnction() {
     result += c == c;
     return result;
 }
-console.log(trickyFUnction());
+console.log(JSON.stringify(trickyFUnction(), null, 2));
